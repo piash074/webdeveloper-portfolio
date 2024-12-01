@@ -8,6 +8,7 @@
     font-weight: 70px;
     padding: 15px 35px;
 }
+ 
 body{
     font-family: 'Lucida', sans-serif;
   font-family: 'open sans',sans-serif ;
@@ -21,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 .nav-titl{
     color: black;
@@ -38,4 +40,15 @@ nav li {
 nav a{
 text-decoration: none;
 color: #474747;
+}
+/* header relarter style */
+.header{
+    background-color: #FFF8F3;
+}
+.bannar-content{
+    padding:  30px 30px 30px 150px ;
+    display: flex;
+}
+.bannar .profile-pic{
+    width: 500px;
 }
